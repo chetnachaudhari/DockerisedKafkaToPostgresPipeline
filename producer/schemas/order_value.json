@@ -1,0 +1,31 @@
+{
+  "type" : "record",
+  "name" : "Order",
+  "namespace" : "sample_etl",
+  "fields" : [
+    {
+      "name" : "order_id",
+      "type" : "int"
+    },
+    {
+      "name" : "customer_id",
+      "type" : "int"
+    },
+    {
+      "name" : "product_id",
+      "type" : "int"
+    },
+    {
+      "name" : "order_date",
+      "type" : "string"
+    },
+    {
+      "name" : "order_state",
+      "type" : "string"
+    },
+    {
+      "name" : "order_quantity",
+      "type" : "int"
+    }
+  ]
+}

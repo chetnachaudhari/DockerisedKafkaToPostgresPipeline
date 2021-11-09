@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "order.key",
+  "namespace": "sample_etl",
+  "fields": [
+    {
+      "name": "timestamp",
+      "type": "long"
+    },
+    {
+      "name": "uuid",
+      "type": "string"
+    }
+  ]
+}
